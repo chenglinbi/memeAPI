@@ -1,7 +1,6 @@
 const express = require('express');
 const app = express();
 const dataProcess = require('./api/dataProcesses');
-var port = process.env || 3000;
 
 app.get('/', (req, res) => {
     res.send('Simple API');
